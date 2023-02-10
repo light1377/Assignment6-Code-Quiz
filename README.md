@@ -7,3 +7,8 @@ Moral Meshkot
 ## Challenges
 I felt I didn't have enough time but will come back to refactor and fix errors after I have submitted all Assignments.
 
+github repository:
+https://github.com/light1377/Assignment6-Code-Quiz
+
+website url:
+https://light1377.github.io/Assignment6-Code-Quiz/index.html
