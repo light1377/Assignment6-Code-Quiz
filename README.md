@@ -5,7 +5,7 @@ Using web APIs to create a timed coding quiz which stores and displays scores as
 Moral Meshkot
 
 ## Challenges
-I felt I didn't have enough time but will come back to refactor and fix errors after I have submitted all Assignments.
+Time, and many different solutions which made using the logic confusing.
 
 github repository:
 https://github.com/light1377/Assignment6-Code-Quiz

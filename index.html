@@ -6,15 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Coding Quiz</title>
-
   <link rel="stylesheet" href="./assets/styles.css" />
 </head>
-
 <body>
   <div class="scores"><a href="highscores.html">View Highscores</a></div>
-
-  <div class="timer">Time: <span id="time">0</span></div>
-
+  <!-- <div class="timer">Time: <span id="time">0</span></div> -->
   <div class="wrapper">
     <div id="start-screen" class="start">
       <h1>Coding Quiz Challenge</h1>
@@ -24,12 +20,12 @@
         score/time by ten seconds!
       </p>
       <button class="start-button" id="start">Start Quiz</button>
-    </div>"
+    </div>
 
-    <div id="questions" class="hide">
+    <!-- <div id="questions" class="hide">
       <h2 id="question-title"></h2>
       <div id="choices" class="choices"></div>
-    </div>
+    </div> -->
 
     <div id="end-screen" class="hide">
       <h2>All done!</h2>
@@ -40,7 +36,7 @@
       </p>
     </div>
 
-    
+
     <div class="quiz">
       <header>
         <div>Code Quiz</div>
@@ -49,6 +45,7 @@
           <div class="seconds">15</div>
         </div>
       </header>
+      <div id="questions" class="hide">
       <section>
         <div class="questions">
           <span>What does HTML stand for?</span>
@@ -92,6 +89,7 @@
           <span class="false">Neither</span>
         </div>
         </section>
+      </div>
 
 
     </div>
