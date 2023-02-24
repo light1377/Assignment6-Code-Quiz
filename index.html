@@ -1,51 +1,109 @@
 <!DOCTYPE html>
 <html lang="en-gb">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Coding Quiz</title>
 
-    <link rel="stylesheet" href="./assets/styles.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Coding Quiz</title>
 
-  <body>
-    <div class="scores"><a href="highscores.html">View Highscores</a></div>
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
 
-    <div class="timer">Time: <span id="time">0</span></div>
+<body>
+  <div class="scores"><a href="highscores.html">View Highscores</a></div>
 
-    <div class="wrapper">
-      <div id="start-screen" class="start">
-        <h1>Coding Quiz Challenge</h1>
-        <p>
-          Try to answer the following code-related questions within the time
-          limit. Keep in mind that incorrect answers will penalize your
-          score/time by ten seconds!
-        </p>
-        <button class ="start-button" id="start" >Start Quiz</button>
-      </div>"
+  <div class="timer">Time: <span id="time">0</span></div>
 
-      <div id="questions" class="hide">
-        <h2 id="question-title"></h2>
-        <div id="choices" class="choices"></div>
-      </div>
+  <div class="wrapper">
+    <div id="start-screen" class="start">
+      <h1>Coding Quiz Challenge</h1>
+      <p>
+        Try to answer the following code-related questions within the time
+        limit. Keep in mind that incorrect answers will penalize your
+        score/time by ten seconds!
+      </p>
+      <button class="start-button" id="start">Start Quiz</button>
+    </div>"
 
-      <div id="end-screen" class="hide">
-        <h2>All done!</h2>
-        <p>Your final score is <span id="final-score"></span>.</p>
-        <p>
-          Enter initials: <input type="text" id="initials" max="3" />
-          <button id="submit">Submit</button>
-        </p>
-      </div>
-
-      <div id="feedback" class="feedback hide"></div>
+    <div id="questions" class="hide">
+      <h2 id="question-title"></h2>
+      <div id="choices" class="choices"></div>
     </div>
 
-    <script src="./assets/questions.js"></script>
-    <script src="./assets/logic.js"></script>
-
+    <div id="end-screen" class="hide">
+      <h2>All done!</h2>
+      <p>Your final score is <span id="final-score"></span>.</p>
+      <p>
+        Enter initials: <input type="text" id="initials" max="3" />
+        <button id="submit">Submit</button>
+      </p>
+    </div>
 
     
-  </body>
+    <div class="quiz">
+      <header>
+        <div>Code Quiz</div>
+        <div class="timer">
+          <div class="time">Time</div>
+          <div class="seconds">15</div>
+        </div>
+      </header>
+      <section>
+        <div class="questions">
+          <span>What does HTML stand for?</span>
+        </div>
+        <div class="options">
+          <span class="true">Hyper text markup language</span>
+          <span class="false">Home title main language</span>
+          <span class="false">Hyper text markup logarithm</span>
+        </div>
+      </section>
+
+<section>
+      <div class="questions">
+        <span> What does CSS stand for?</span>
+      </div>
+      <div class="options">
+        <span class="true">Cascading Style Sheets</span>
+        <span class="false">Collumn style sheets</span>
+        <span class="false">cascading spaning sheets</span>
+      </div>
+      </section>
+
+      <section>
+      <div class="questions">
+        <span> What does js stand for?</span>
+      </div>
+      <div class="options">
+        <span class="true">Java script</span>
+        <span class="false">Java styles</span>
+        <span class="false">Java sheets</span>
+      </div>
+      </section>
+
+      <section>
+        <div class="questions">
+          <span> Is flexbox 1-dimentional or 2-dimentional?</span>
+        </div>
+        <div class="options">
+          <span class="true">1-dimentional</span>
+          <span class="false">2-dimentional</span>
+          <span class="false">Neither</span>
+        </div>
+        </section>
+
+
+    </div>
+
+    <div id="feedback" class="feedback hide"></div>
+  </div>
+
+  <script src="./assets/questions.js"></script>
+  <script src="./assets/logic.js"></script>
+
+
+
+</body>
+
 </html>
